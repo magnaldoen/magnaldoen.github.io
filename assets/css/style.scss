@@ -2,3 +2,24 @@
 ---
 
 @import "{{ site.theme }}";
+
+.inner {
+    max-width: 60%;
+  }
+
+  #main_content {
+    background-color: white;
+  }
+
+  #main_content_wrap{
+    background-color: white;
+  }
+
+  #header_wrap {
+    background: linear-gradient(to right, #000000, #585858);
+  }
+  
+  header {
+    background: transparent;
+  }
+  
