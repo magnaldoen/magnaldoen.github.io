@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: A Deep Dive into Burglary Crimes in San Franscisco
+title: Using data to investigate serial burglary offenders
 #email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Assignment 2 for Social data analysis and visualization
-  created by Simon, Andreas and Magnus
+#description: >- # this means to ignore newlines until "baseurl:"
+#Assignment 2 for Social data analysis and visualization
+#created by Simon, Andreas and Magnus
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "magnaldoen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  magnaldoen

@@ -3,44 +3,35 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: SF Crimes
 ---
-
+<p style="font-size: 18px;"><strong>Created by Andreas, Simon and Magnus</strong></p>
+<p style="font-size: 16px;"><em>March 27, 2023 at 21:58 CET</em></p>
 <div class="container">
-  <div class="row">
-    <div class="col-md-8">
-      <h1>{{ page.title }}</h1>
-      <hr>
-      <article>
-        <h2>Article Title</h2>
-        <embed 
-            type="text/html" 
-            src="/img/bokeh.html"
-            width="1100"
-            height="425"
-            >
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada massa ut felis vestibulum lobortis. Aliquam quis purus eget enim rutrum molestie. Sed at feugiat massa. Duis finibus metus quis bibendum imperdiet. Ut ut tellus vitae velit scelerisque faucibus. Sed nec ornare nibh. Proin vel nunc eleifend, posuere felis a, pellentesque ex.</p>
-      </article>
-      <hr>
-      <article>
-        <h2>Another Article Title</h2>
-        <img src="/img/barplot.png" alt="Burglary crimes January 2005">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada massa ut felis vestibulum lobortis. Aliquam quis purus eget enim rutrum molestie. Sed at feugiat massa. Duis finibus metus quis bibendum imperdiet. Ut ut tellus vitae velit scelerisque faucibus. Sed nec ornare nibh. Proin vel nunc eleifend, posuere felis a, pellentesque ex.</p>
-      </article>
-    </div>
-    <div class="col-md-4">
-      <h2>Recent News</h2>
+    <section class="main-content">
+      <p>Using data for delving deeper into the correlation between crimes, will enable the future of law enforcement to solve crimes faster and with a higher accuracy regarding prosecuting the correct offenders. Therefore, for the safety of the local communities, the offenders will be detected earlier, and thereby arrested and held in custody as intended.
+      In San Francisco, the San Francisco Police Department (SFPD) has gathered a database of crime data which, amongst other things, can be used to investigate the correlation between crimes. Delving deeper into the crime data will enable the future of police investigation to have more tools to find and identify and prosecute the offender faster and with a higher degree of accuracy, as the traditional investigatory methodology can be supported by data-based insights.</p>
+      <p><a href="https://www.sfchronicle.com/projects/2022/fixing-san-francisco-problems/crime">According to the San Francisco Chronicle</a>, San Francisco currently has higher burglary rates than the national average for urban cities, which means that this is a crime worth further investigationTherefore, the following research contains an in-depth analysis of burglaries in San Francisco, which could grant additional insights to criminal investigators.</p>
+      <br>
       <embed 
-          type="text/html" 
-          src="/img/geoplot.html"
-          width="1000"
-          height="625"
-            >
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada massa ut felis vestibulum lobortis. Aliquam quis purus eget enim rutrum molestie. Sed at feugiat massa. Duis finibus metus quis bibendum imperdiet. Ut ut tellus vitae velit scelerisque faucibus. Sed nec ornare nibh. Proin vel nunc eleifend, posuere felis a, pellentesque ex.</p>
-      <ul>
-        <li><a href="#">Article Title</a></li>
-        <li><a href="#">Another Article Title</a></li>
-      </ul>
-    </div>
-  </div>
+        type="text/html" 
+        src="/img/bokeh.html"
+        width="925"
+        height="425"
+        class="center"
+      >
+      <p>Although burglary crimes are recorded with some of the highest clearance rates (meaning that an offender is arrested for the reported crime), the clearance rates have been in a decline in the last few years. There is therefore an incentive to stop the declining clearance rates. This is potentially possible with the use of data which aims to highlight links between crimes and thereby ensure that the offenders get caught.</p>
+      <p><a href="https://bjs.ojp.gov/library/publications/recidivism-prisoners-released-34-states-2012-5-year-follow-period-2012-2017">According to data from Bureau of Justice Statistics</a> property crimes (hereunder burglary) are the crime category which sees the highest amount of serial, recurring offenders. Investigators can therefore utilize data to get an overview of reported burglary cases in order to determine whether cases might be connected to the same perpetrator and thereby ensure that the offenders are charged with all crimes committed. Furthermore, an analysis of this data can show tendencies in which time of year and which areas of the city is most vulnerable burglaries, which can be used to develop preventative measures that stops the crime from occurring or intercepts the offenders during or shortly after the burglary has been committed. As burglary crimes may spike during a particular month or year, the graph above will provide a visual indication of which months have an abnormal rate of burglaries. In January 2005, which has the highest monthly burglary rate over the period from 2003 to 2017, there were 696 burglary crimes. This month has significantly higher burglary rates than the monthly average of 504 burglaries per month for January, which might suggest that there have been some offenders that went on a burglary spree during this month </p>
+      <img src="/img/barplot.png" alt="Burglary crimes January 2005" class="center">
+      <p>Diving further into the burglaries in January, it is possible to determine the distribution of burglary crimes by day for January of 2005. By plotting this it is possible to identify specific days with an abnormal number of burglaries which thereby can suggest that the <a href="https://www.researchgate.net/publication/249752221_Them_AgainSame-Offender_Involvement_in_Repeat_and_Near_Repeat_Burglaries">crimes have been committed by a serial offender.</a> From the bar plot shown above it is visible that the monthly average was 22,5 burglary per day. Furthermore, it is seen that January 14th, 2005, had the most burglaries in a day, at 36 total. This is more than 50% higher than the monthly average in January and is thereby far above what is assessed as being normal. In order to increase the understanding of how the burglaries are connected a deeper analysis of the data from the 14th of January has been carried out in the geographical plot below.</p>
+      <embed 
+        type="text/html" 
+        src="/img/geoplot.html"
+        width="1000"
+        height="625"
+        class="center"
+      >
+      <p>All the individual burglary crimes committed the 14th of January 2005 have been mapped out and plotted by location of where the crime was reported, over the San Francisco area in the geographical plot above. These types of plots are already extremely useful for law enforcers to identify patterns and locate “Hot spots”. Hotspots are by the US department of justice defined as <a href="https://www.ojp.gov/pdffiles1/nij/209393.pdf">“an area that has a greater than average number of criminal or disorder events, or an area where people have a higher-than-average risk of victimization”</a>.</p>
+      <p>From the heatmap of burglaries committed in San Francisco the 14th of January 2005 it is possible to see how close two crimes were committed to each other and thereby identify the so-called hotspots of San Francisco. Distance is a significant indicator when analyzing crime data and determining the likelihood of crimes being committed by the same person. Furthermore, it will also provide a way to narrow down the criminal as a <a href="https://link.springer.com/article/10.1007/s10940-019-09431-y">perpetrator is more likely to commit a crime in a district or neighborhood that they are already familiar with</a> as they may know which locations have the most valuable goods to steal and which roads to get away by. The geo-plot also shows a color which is an indicator of what time a day the crime has been committed. Two crimes committed within a few hours, and the same location, suggests an even stronger probability of the two crimes being linked. From the plot it is clear that there are hot spots close to the Oakland Bay Bridge. Furthermore, it is seen that there are two burglaries committed at almost the same time and location in the north-eastern part of the city where Broadway and Polk street meet which could indicate that it is the same person behind the two burglaries. The investigators might from this be able to connect the two burglaries and then by ensuring that the criminal is charged with both crimes.</p>
+      <p> From the data generated by the San Francisco police department it has been possible to develop the graphs above from which it is possible to dive into specific month and days, but criminal investigators could use this to quickly generate insights into crimes for any year, month, day or any other crimes where offenders are likely to commit more than one crime. In conclusion, the data used for generating these visualizations is a powerful tool, and from the analysis it has been shown that it can be used, in this case, for the purpose of connecting crimes by location and time. If there was some additional information which would be relevant to the criminal investigator, then this information could be added to these graphs and thereby increase the chance of catching the burglar. This could be information such as, method of entry or type of goods stolen, which might suggest a method or motive which can be linked to a specific perpetrator.</p>
+  </section>
 </div>
